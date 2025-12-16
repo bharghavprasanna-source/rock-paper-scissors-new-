@@ -191,9 +191,9 @@ function playgame(playermove)
 
   document.querySelector('.js-moves').innerHTML= 
   `Your Move
-  <img src="rock-paper-scissors/${playermove}-emoji.png" 
+  <img src="${playermove}-emoji.png" 
   class="move-icon">
-  <img src="rock-paper-scissors/${com_move}-emoji.png" class="move-icon"> Computer Move`;
+  <img src="${com_move}-emoji.png" class="move-icon"> Computer Move`;
 }
 
 function updatescore()
@@ -224,4 +224,5 @@ else
 }
 
 return com_move;
+
 }
